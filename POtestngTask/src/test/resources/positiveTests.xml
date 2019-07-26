@@ -1,0 +1,13 @@
+<suite name="Suite3" verbose="1">
+    <test name="PositiveTests">
+        <classes>
+            <class name="ua.dou.daria_ivanova.tests.JobSearchTests">
+                <methods>
+                    <include name="categorySearchCheck"/>
+                    <include name="fastSearchCheck"/>
+                    <include name="validQueryCheck"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

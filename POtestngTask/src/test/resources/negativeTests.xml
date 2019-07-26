@@ -1,0 +1,12 @@
+<suite name="Suite2" verbose="1">
+    <test name="NegativeTests">
+        <classes>
+            <class name="ua.dou.daria_ivanova.tests.JobSearchTests">
+                <methods>
+                    <include name="specialSymbolsCheck"/>
+                    <include name="invalidQueryCheck"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
